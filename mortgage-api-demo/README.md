@@ -130,36 +130,6 @@ $affordabilityRatio = ($monthlyPayment / $monthlyIncome) * 100;
 - Deposit percentage: 10%
 ```
 
-## 🎓 What This Demonstrates
-
-### Laravel Skills
-✅ Eloquent ORM with relationships  
-✅ Database migrations and seeders  
-✅ Event-driven architecture  
-✅ API resource controllers  
-✅ Form request validation  
-✅ Service layer pattern  
-✅ Repository pattern  
-✅ Queue jobs (async processing)  
-✅ Database query optimization  
-✅ Multi-tenancy support  
-
-### General Backend Skills
-✅ RESTful API design  
-✅ Clean architecture principles  
-✅ SOLID principles  
-✅ Design patterns  
-✅ Database normalization  
-✅ Performance optimization  
-✅ Security best practices  
-✅ Documentation  
-
-### Domain Knowledge
-✅ Understanding of mortgage application workflow  
-✅ Financial calculations (affordability, DTI)  
-✅ Compliance and audit requirements  
-✅ Multi-stakeholder systems  
-
 ## 🚀 Installation
 
 ```bash
@@ -212,14 +182,6 @@ php artisan test --coverage
 php artisan test --testsuite=Feature
 ```
 
-## 📈 Performance Considerations
-
-- **Query Optimization**: Eager loading to prevent N+1 queries
-- **Caching**: Redis for frequently accessed data
-- **Indexing**: Strategic indexes on high-traffic columns
-- **Pagination**: Cursor-based pagination for large datasets
-- **Queue Jobs**: Async processing for heavy operations
-
 ## 🔐 Security Features
 
 - API authentication (Sanctum)
@@ -229,27 +191,8 @@ php artisan test --testsuite=Feature
 - Rate limiting
 - Input sanitization
 
-## 📚 Learning Resources Used
-
-- Laravel Documentation (laravel.com)
-- UK Mortgage Industry Standards
-- Clean Architecture by Robert Martin
-- Laravel Best Practices
-
-## 🤝 Contributing
-
-This is a demonstration project created for portfolio purposes. Feedback and suggestions are welcome!
-
-## 📄 License
-
-This project is open-source and available under the MIT License.
-
 ## 👤 Author
 
 **Arturs Irbitis**
 - Email: Arturs.irbitis@gmail.com
 - LinkedIn: [arturs-irbitis-91645959](https://linkedin.com/in/arturs-irbitis-91645959)
-
----
-
-**Note**: This is a demonstration project showcasing Laravel backend development skills. It simulates a mortgage application API but is not intended for production use.
